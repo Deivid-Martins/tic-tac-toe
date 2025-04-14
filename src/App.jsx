@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import GameBoard from './components/Gameboard';
-import Player from './components/Player';
-import Log from './components/Log';
-import { WINNING_COMBINATIONS } from './winnig_combinations';
-import GameOver from './components/GameOver';
+import GameBoard from './components/GameBoard.jsx';
+import Player from './components/Player.jsx';
+import Log from './components/Log.jsx';
+import { WINNING_COMBINATIONS } from './winnig_combinations.js';
+import GameOver from './components/GameOver.jsx';
 
 const PLAYERS = {
   X: 'Player 1',
